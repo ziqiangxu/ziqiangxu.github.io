@@ -1,0 +1,17 @@
+{
+  "name": "ziqiangxu.github.io",
+  "version": "1.0.0",
+  "description": "blog source code",
+  "main": "index.js",
+  "repository": "git@github.com:ziqiangxu/ziqiangxu.github.io.git",
+  "author": "Daryl.Xu <ziqiang_xu@yeah.net>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "webpack": "^4.30.0"
+  }
+}
