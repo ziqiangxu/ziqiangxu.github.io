@@ -1,2 +1,3 @@
 # ziqiangxu.github.io
-优先显示readme.md还是index.html
+
+一个静态页面
