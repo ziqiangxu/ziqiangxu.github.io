@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "docs:dev": "yarn run compile:config && vuepress dev docs",
-    "docs:build": "vuepress build docs",
+    "docs:build": "yarn run compile:config && vuepress build docs",
     "compile:config": "tsc docs/.vuepress/*.ts",
     "gen-index": ""
   },
