@@ -8,9 +8,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "docs:dev": "vuepress dev docs",
+    "docs:dev": "yarn run compile:config && vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "complie-config": "tsc docs/.vuepress/*.ts",
+    "compile:config": "tsc docs/.vuepress/*.ts",
     "gen-index": ""
   },
   "dependencies": {
