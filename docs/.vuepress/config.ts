@@ -4,11 +4,14 @@ funSets.getSubDirs('docs', {genReadme: true})
 
 // 网站必要的配置文件
 module.exports = {
+    base: "/blog/",  // 需要以斜杠结尾
     title: " ",
     description: "description from config.js",
     themeConfig: {
         nav: [
             { text: '主页', link: '/' },
+            // 必须以斜杠结尾才会路由到目录下的README
+            { text: '所有文章', link: '/积累/' }, 
             {
                 text: 'C',
                 items: [

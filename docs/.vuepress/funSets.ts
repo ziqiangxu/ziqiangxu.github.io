@@ -12,9 +12,9 @@ export function getSubDirs(rootDir: string, options: {genReadme: boolean}) {
                 genReadme(fullPath)
             }
             // 相对rootDir的路径【文档根目录，vuepress规范】
-            console.log('====================================');
-            console.log(dir);
-            console.log('====================================');
+            // console.log('====================================');
+            // console.log(dir);
+            // console.log('====================================');
             targetDirs.push(`${dir}/`)
         }
     })
@@ -36,7 +36,7 @@ function genReadme(dir: string) {
     fs.writeFileSync(`${dir}/README.md`, readme)
 }
 
-console.log('====================================');
+// console.log('====================================');
 // console.log(process.title, process.version);
 // console.log(getSubDirs('docs', {genReadme: true}))
-console.log('====================================');
+// console.log('====================================');
