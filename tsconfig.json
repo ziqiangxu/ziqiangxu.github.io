@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        // 与Vue的浏览器支持保持一致
+        "target": "es5", 
+        // 这可以对 `this` 上的数据属性进行更严格的推断
+        "strict": true,
+        "module": "es2015",
+        "moduleResolution": "node"
+    }
+}

@@ -1,3 +1,18 @@
+const fs = require('fs')
+function getDirs(rootDir) {
+    var dirs = fs.readdirSync(rootDir)
+    var tar_dir = []
+    dirs.forEach(dir => {
+        var stat = fs.statSync(`${rootDir}/${dir}`)
+        if (dir !== '.vuepress' && stat.isDirectory()) {
+            tar_dir.push(dir + '/')
+        }
+    });
+    console.log(tar_dir)
+    // return ["Git/", "Python/"]]
+    return tar_dir
+}
+
 // 网站必要的配置文件
 module.exports = {
     title: " ",
@@ -29,23 +44,25 @@ module.exports = {
         // 侧边栏，需要将路径写到这个列表里
         // 注意： 目录下必须要有README.md， 【可能是因为目录最终显示的文字是来自于README.md的一级标题】
         // 目录必须以斜杠结尾， 中文目录会导致无法生成跳转到下一页的箭头
-        sidebar: [
-            'C/',
-            'c1/',
-            'Docker/',
-            'ECMAScript/',
-            'Git/',
-            'Golang/',
-            'Java/',
-            'PHP/',
-            'Python/',
-            '个人日志/',
-            '操作系统/',
-            '数据结构/',
-            '积累/',
-            '网络安全/',
-            '计算机视觉/',
-            '软件工程/'
-        ]
+        // sidebar: getDirs('docs')
+        sidebar: require('./funSets').getSubDirs('docs')
+        // sidebar: [
+        //     'C/',
+        //     'c1/',
+        //     'Docker/',
+        //     'ECMAScript/',
+        //     'Git/',
+        //     'Golang/',
+        //     'Java/',
+        //     'PHP/',
+        //     'Python/',
+        //     '个人日志/',
+        //     '操作系统/',
+        //     '数据结构/',
+        //     '积累/',
+        //     '网络安全/',
+        //     '计算机视觉/',
+        //     '软件工程/'
+        // ]
     }
 }
