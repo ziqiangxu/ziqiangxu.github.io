@@ -5,6 +5,7 @@
 - [Linux授权弹窗：polkit.md](Linux授权弹窗：polkit.md)
 - [Linux通过读取设备文件监听键盘.md](Linux通过读取设备文件监听键盘.md)
 - [Ubuntu的Debian版本对照表.md](Ubuntu的Debian版本对照表.md)
+- [common-standard.md](common-standard.md)
 - [deepin如何休眠.md](deepin如何休眠.md)
 - [deepin搭建8086汇编开发环境.md](deepin搭建8086汇编开发环境.md)
 - [deepin文件管理器的文件夹共享.md](deepin文件管理器的文件夹共享.md)

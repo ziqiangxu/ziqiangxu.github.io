@@ -1,6 +1,6 @@
-# Qt获取信号发送者的地址
+# `Qt` 获取信号发送者的地址
 
-首先我们会定义input是一个QLineEdit类型的指针变量（connect的参数须是地址）
+首先我们会定义 `input` 是一个 `QLineEdit` 类型的指针变量（ `connect` 的参数须是地址）
 
 ``` cpp
 connect(input, &QLineEdit::returnPressed,
