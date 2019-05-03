@@ -7,7 +7,7 @@
 
 推荐一个防火墙管理软件—— `ufw`，可以用它轻松地开关计算机端口
 
-``` shell
+``` bash
 sudo apt install ufw  # 安装ufw
 sudo ufw allow 139  # 开启139端口
 sudo ufw reject 139  # 关闭139端口

@@ -2,7 +2,7 @@
 
 - [Deepin如何休眠](Deepin休眠.md)
 - [Deepin搭建8086汇编开发环境](Deepin搭建8086汇编开发环境.md)
-- [写在最前面](Deepin搭建深度学习环境（安装显卡驱动、cuda、cuDNN）.md)
+- [Deepin搭建深度学习环境（安装显卡驱动、`cuda`、`cuDNN`）](Deepin搭建深度学习环境（安装显卡驱动、cuda、cuDNN）.md)
 - [Deepin文件管理器的文件夹共享](Deepin文件管理器的文件夹共享.md)
 - [Linux下VirtualBox挂载USB设备](Linux下VirtualBox挂载USB设备.md)
 - [Linux授权弹窗：polkit](Linux授权弹窗：polkit.md)
