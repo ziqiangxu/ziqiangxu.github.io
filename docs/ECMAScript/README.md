@@ -1,4 +1,4 @@
 # ECMAScript
 
-- [Vue-and-MVVM.md](Vue-and-MVVM.md)
-- [npm踩坑日记.md](npm踩坑日记.md)
+- [Vue和MVVM](Vue和MVVM.md)
+- [npm踩坑日记](npm踩坑日记.md)

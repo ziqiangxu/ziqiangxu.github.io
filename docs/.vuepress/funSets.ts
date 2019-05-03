@@ -1,5 +1,5 @@
 import * as fs from 'fs'
-import { basename } from 'path';
+import * as path from 'path'
 
 export function getSubDirs(rootDir: string, options: {genReadme: boolean}) {
     let subDirs = fs.readdirSync(rootDir)
@@ -27,7 +27,7 @@ function genReadme(dir: string) {
     let files = fs.readdirSync(dir)
     let readme = ""
     // 从info.json读取目录显示名字
-    let sidebarName = basename(dir)
+    let sidebarName = path.basename(dir)
     let infoPath = `${dir}/info.json`
     if (fs.existsSync(infoPath)) {
         let infoBuffer = fs.readFileSync(infoPath)
@@ -37,8 +37,9 @@ function genReadme(dir: string) {
     readme = `# ${sidebarName}\n\n`
     files.forEach(file => {
         let stat = fs.statSync(`${dir}/${file}`)
-        if (file != "README.md" && /.md$/i.exec(file) && stat.isFile()) {
-            readme += `- [${file}](${file})\n`
+        if (file != "README.md" && /.md$/i.exec(file) && stat.isFile()) { 
+            // 以文件名为文章名
+            readme += `- [${file.slice(0, file.length-3)}](${file})\n`
         }
     })
     fs.writeFileSync(`${dir}/README.md`, readme)

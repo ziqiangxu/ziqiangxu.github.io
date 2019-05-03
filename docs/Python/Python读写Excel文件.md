@@ -1,4 +1,4 @@
-# `Python` 读写 `excel` 表格文件
+# `Python` 读写 `Excel` 表格文件
 
 ## 常用库
 
