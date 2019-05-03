@@ -1,3 +1,6 @@
+---
+editLink: false
+---
 # Qt
 
 - [`Qt` 获取信号发送者的地址](Get-the-address-of-signal-sender-in-Qt.md)

@@ -1,3 +1,6 @@
+---
+editLink: false
+---
 # C
 
 - [CMake之库文件添加](CMake之库文件添加.md)
