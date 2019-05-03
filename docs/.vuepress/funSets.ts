@@ -36,10 +36,16 @@ function genReadme(dir: string) {
     }
     readme = `# ${sidebarName}\n\n`
     files.forEach(file => {
-        let stat = fs.statSync(`${dir}/${file}`)
+        let filePath = `${dir}/${file}`
+        let stat = fs.statSync(filePath)
         if (file != "README.md" && /.md$/i.exec(file) && stat.isFile()) { 
-            // 以文件名为文章名
-            readme += `- [${file.slice(0, file.length-3)}](${file})\n`
+            let pageTitle = file.slice(0, file.length-3)
+            let lines = fs.readFileSync(filePath, 'utf-8').split('\n')
+            // 检查文件内容第一行，是不是一级标题，如果是则以之为文章名，否则以文件名为文章名
+            if (/^#\ .+$/.test(lines[0])) {
+                pageTitle = lines[0].slice(2)
+            }
+            readme += `- [${pageTitle}](${file})\n`
         }
     })
     fs.writeFileSync(`${dir}/README.md`, readme)
