@@ -25,7 +25,7 @@ export function getSubDirs(rootDir: string, options: {genReadme: boolean}) {
 function genReadme(dir: string) {
     // 在目录下生成README作为索引页
     let files = fs.readdirSync(dir)
-    let readme = ""
+    let readme = `---\neditLink: false\n---\n`
     // 从info.json读取目录显示名字
     let sidebarName = path.basename(dir)
     let infoPath = `${dir}/info.json`
@@ -34,21 +34,35 @@ function genReadme(dir: string) {
         let info = JSON.parse(infoBuffer.toString())
         if (info.name != undefined) sidebarName = info.name
     }
-    readme = `# ${sidebarName}\n\n`
+    readme += `# ${sidebarName}\n\n`
     files.forEach(file => {
         let filePath = `${dir}/${file}`
         let stat = fs.statSync(filePath)
         if (file != "README.md" && /.md$/i.exec(file) && stat.isFile()) { 
-            let pageTitle = file.slice(0, file.length-3)
+            let pageTitle = file
             let lines = fs.readFileSync(filePath, 'utf-8').split('\n')
-            // 检查文件内容第一行，是不是一级标题，如果是则以之为文章名，否则以文件名为文章名
-            if (/^#\ .+$/.test(lines[0])) {
-                pageTitle = lines[0].slice(2)
+            // 检查markdown文件的一级标题，如果是则以之为文章名，否则以文件名为文章名
+            let res = getFirstTitle(lines)
+            if (res.titleFound) {
+                pageTitle = res.firstTitle
             }
             readme += `- [${pageTitle}](${file})\n`
         }
     })
     fs.writeFileSync(`${dir}/README.md`, readme)
+}
+
+function getFirstTitle(lines: Array<string>) {
+    for (let i = 0; i < lines.length; i++) {
+        if (/^#\ .+$/.test(lines[i])) return {
+            titleFound: true,
+            firstTitle: lines[i].slice(2)
+        }
+    }
+    return {
+        titleFound: false,
+        firstTitle: ""
+    }
 }
 
 // console.log('====================================');
