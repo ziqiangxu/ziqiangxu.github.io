@@ -11,6 +11,7 @@ editLink: false
 - [Linux授权弹窗：polkit.md](Linux授权弹窗：polkit.md)
 - [Linux通过读取设备文件监听键盘.md](Linux通过读取设备文件监听键盘.md)
 - [Ubuntu的Debian版本对照表.md](Ubuntu的Debian版本对照表.md)
+- [`emacs` 背景和文字颜色配置](emacs-color-scheme.md)
 - [使用Deepin为MacBookAir选用合适的键盘布局.md](使用Deepin为MacBookAir选用合适的键盘布局.md)
 - [将本地端口转发到远程端口.md](将本地端口转发到远程端口.md)
 - [指定XMind和DBeaver的jdk版本.md](指定XMind和DBeaver的jdk版本.md)
