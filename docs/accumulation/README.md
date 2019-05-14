@@ -3,10 +3,10 @@ editLink: false
 ---
 # 积累
 
-- [Deepin如何休眠](Deepin休眠.md)
+- [`Deepin` 如何休眠](Deepin休眠.md)
 - [`Deepin` 搭建 8086 汇编开发环境](Deepin搭建8086汇编开发环境.md)
-- [Deepin搭建深度学习环境（安装显卡驱动、`cuda`、`cuDNN`）](Deepin搭建深度学习环境（安装显卡驱动、cuda、cuDNN）.md)
-- [Deepin文件管理器的文件夹共享](Deepin文件管理器的文件夹共享.md)
+- [`Deepin` 搭建深度学习环境（安装显卡驱动、`cuda`、`cuDNN`）](Deepin搭建深度学习环境（安装显卡驱动、cuda、cuDNN）.md)
+- [`Deepin` 文件管理器的文件夹共享](Deepin文件管理器的文件夹共享.md)
 - [`Linux` 下 `VirtualBox` 挂载 `USB` 设备](Linux下VirtualBox挂载USB设备.md)
 - [`Linux` 授权弹窗 `polkit`](Linux授权弹窗：polkit.md)
 - [通过读取设备文件监听键盘事件 `Linux`](Linux通过读取设备文件监听键盘.md)

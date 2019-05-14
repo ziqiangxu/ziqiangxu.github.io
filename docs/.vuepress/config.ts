@@ -12,7 +12,7 @@ module.exports = {
         nav: [
             { text: '主页', link: '/' },
             // 必须以斜杠结尾才会路由到目录下的README
-            { text: '所有文章', link: '/积累/' }, 
+            { text: '所有文章', link: '/accumulation/' }, 
             // {
             //     text: 'C',
             //     items: [
