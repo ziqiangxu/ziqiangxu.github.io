@@ -12,6 +12,7 @@ editLink: false
 - [通过读取设备文件监听键盘事件 `Linux`](Linux通过读取设备文件监听键盘.md)
 - [`Ubuntu` 的 `Debian` 版本对照表](Ubuntu的Debian版本对照表.md)
 - [`emacs` 背景和文字颜色配置](emacs-color-scheme.md)
+- [`img` 标签引用网络图片出现 403](img标签引用403解决方法.md)
 - [为 `MacBookAir` 选用合适的键盘布局](使用Deepin为MacBookAir选用合适的键盘布局.md)
 - [将本地端口转发到远程端口](将本地端口转发到远程端口.md)
 - [指定 `XMind` 和 `DBeaver` 的 `JDK` 版本](指定XMind和DBeaver的jdk版本.md)
