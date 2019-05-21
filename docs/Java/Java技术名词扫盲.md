@@ -19,17 +19,30 @@
 [https://zhuanlan.zhihu.com/p/34976125](https://zhuanlan.zhihu.com/p/34976125)
 [http://www.ityouknow.com/springcloud/2017/06/01/gateway-service-zuul.html](http://www.ityouknow.com/springcloud/2017/06/01/gateway-service-zuul.html)
 
-## `Spring IOC/DI` 和 `Spring AOP`
+## `Spring IoC/DI` 和 `Spring AOP`
 
-待写
+### `IoC(Inversion of Control)` 控制反转与 `DI（Dependency Inject）` 依赖注入
 
-### `IOC(Inversion of Control)` 控制反转
+- `IoC` 是一种编程范式，用于对程序进行解耦
+- `DI` 是一种用 `Java` 践行 `IoC` 编程范式的具体方式
 
-`IoC` 是一种 `Java` 编程模式
+简单来说，`a` 依赖 `b`，但 `a` 不控制 `b` 的创建和销毁，仅使用 `b`，那么 `b` 的创建和销毁交给 `a` 之外处理( 如：`Spring` 框架)，这叫控制反转（`IoC`），而 `a` 要依赖 `b`，必然要使用 `b` 的 `instance`，那么我们可以:
+
+1. 通过 `a` 的接口，把 `b` 实例传入
+2. 通过 `a` 的构造，把 `b` 实例传入
+3. 通过设置 `a` 的属性，把 `b` 实例传入
+
+这样就实现了 `a` 使用 `b` 实例，但是不创建 `b` 实例。
+
+>> 扩展阅读
+[https://zhuanlan.zhihu.com/p/33492169](https://zhuanlan.zhihu.com/p/33492169)
+[https://www.zhihu.com/question/32108444](https://www.zhihu.com/question/32108444)
 
 ### `AOP(Aspect Oriented Program)` 面向切片编程
 
-是对 `OOP` 的补充
+一种编程范式，是对 `OOP` 的补充，在运行时，动态地将代码切入到类的指定方法、指定位置上的编程思想就是面向切面的编程。
+>> 扩展阅读
+[https://www.zhihu.com/question/24863332](https://www.zhihu.com/question/24863332)
 
 ## 杂项
 
