@@ -1,4 +1,4 @@
-# CMake之库文件添加
+# `CMake` 之库文件添加
 
 如果某些头文件的使用需要指明链接库的位置，但你没有在指明。很有可能会出现：
 `error adding sysmbols: DSO missiong from command line` 这样的错误。
