@@ -14,6 +14,7 @@ editLink: false
 - [`emacs` 背景和文字颜色配置](emacs-color-scheme.md)
 - [`img` 标签引用网络图片出现 403](img标签引用403解决方法.md)
 - [为 `MacBookAir` 选用合适的键盘布局](使用Deepin为MacBookAir选用合适的键盘布局.md)
+- [关闭 `chrome` 的安全策略：可用于跨域](关闭chrome的安全策略.md)
 - [将本地端口转发到远程端口](将本地端口转发到远程端口.md)
 - [指定 `XMind` 和 `DBeaver` 的 `JDK` 版本](指定XMind和DBeaver的jdk版本.md)
 - [数据库学习笔记](数据库学习笔记.md)
