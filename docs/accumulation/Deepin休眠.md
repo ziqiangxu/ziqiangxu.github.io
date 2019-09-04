@@ -10,12 +10,12 @@
 ~~一般来说，如果你有一个可以正常使用的swap分区，只需要在终端执行~~
 ~~```systemctl hibernate```~~
 ~~就可以休眠了。~~
-~~如果你休眠之后开机发现你的电脑并没有恢复现场，则需要指定一下启动的磁盘（从swap分区启动），操作方法如下：~~
-~~修改/etc/default/grub这个文件中的相关内容~~
-~~```GRUB_CMDLINE_LINUX_DEFAULT="resume=/dev/sda3 quiet"```
-其中/dev/sda3改为你的swap分区对应的标志即可（推荐使用gparted查看）
-然后再执行~~
-~~```sudo update-grub```~~
+
+**当然，也有例外**, 如果你休眠之后开机发现你的电脑并没有恢复现场，则需要指定一下启动的磁盘（从swap分区启动），操作方法如下：
+> 修改/etc/default/grub这个文件中的相关内容
+`GRUB_CMDLINE_LINUX_DEFAULT="resume=/dev/sda3 quiet"`
+其中 `/dev/sda3` 改为你的 `swap` 分区对应的标志即可（推荐使用 `gparted` 查看）
+然后再执行 `sudo update-grub`
 
 ## 情况二
 
