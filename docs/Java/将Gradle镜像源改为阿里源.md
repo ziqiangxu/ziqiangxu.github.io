@@ -1,3 +1,5 @@
+# 将 `Gradle` 镜像源改为阿里源
+
 1. 全局修改
 文件`~/.gradle/init.gradle`
 ```
