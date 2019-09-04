@@ -8,8 +8,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "docs:dev": "yarn run compile:config && vuepress dev docs",
-    "docs:build": "yarn run compile:config && vuepress build docs",
+    "docs:dev": "node ./builds/addComponents.js && yarn run compile:config && vuepress dev docs && node ./builds/delComponents.js",
+    "docs:build": "node ./builds/addComponents.js && yarn run compile:config && vuepress build docs && node ./builds/delComponents.js",    
     "compile:config": "tsc docs/.vuepress/*.ts",
     "gen-index": "",
     "test": "tsc test/*.ts && node test/main.js"
