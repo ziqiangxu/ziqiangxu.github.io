@@ -1,3 +1,5 @@
+# 使用 `Git` 客户端连接你的 `GitHub`
+
 本文适用于Windows客户端，Linux终端。想必macOS也应该是一样的。本教程同样适用于其他的git托管平台，比如coding，gitlab等。（假设你知道git和github的区别）
 - 先安装git客户端
 Windows点一点，Linux用命令安装git就OK。
