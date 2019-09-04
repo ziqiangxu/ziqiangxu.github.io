@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "docs:dev": "node ./builds/addComponents.js && yarn run compile:config && vuepress dev docs && node ./builds/delComponents.js",
-    "docs:build": "node ./builds/addComponents.js && yarn run compile:config && vuepress build docs && node ./builds/delComponents.js",    
+    "docs:build": "node ./builds/addComponents.js && yarn run compile:config && vuepress build docs && node ./builds/delComponents.js",
     "compile:config": "tsc docs/.vuepress/*.ts",
     "gen-index": "",
     "test": "tsc test/*.ts && node test/main.js"
@@ -17,6 +17,7 @@
   "dependencies": {
     "@types/node": "^11.13.8",
     "fs": "^0.0.1-security",
+    "md5": "^2.2.1",
     "typescript": "3.4",
     "vuepress": "^0.14.11",
     "webpack": "^4.30.0",

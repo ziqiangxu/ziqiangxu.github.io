@@ -506,6 +506,7 @@ $gt-size-avatar-mobi = em(32px);
   </div>
 </template>
 <script>
+let md5 = require('md5')
 export default {
   name: 'comment',
   data() {
@@ -517,28 +518,17 @@ export default {
     script.src = 'https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js';
     body.appendChild(script);
     script.onload = () => {
-        const commentConfig = {
+      const commentConfig = {
         clientID: 'b634e18c63265da60028',
         clientSecret: '22bc35cf2b47c8e35e887d9226b003fedf95ba73',
         repo: 'ziqiangxu.github.io',
+        // repo: 'words-picker',
+        // repo: 'blog1',
         owner: 'ziqiangxu',
-        // 这里接受一个数组，可以添加多个管理员
         admin: ['ziqiangxu'],
-        // id 用于当前页面的唯一标识，一般来讲 pathname 足够了，
-       
-        // 但是如果你的 pathname 超过 50 个字符，GitHub 将不会成功创建 issue，此情况可以考虑给每个页面生成 hash 值的方法.
-        id: location.pathname,
+        id: md5(location.pathname),
         distractionFreeMode: false,
       };
-      // const commentConfig = {
-      //   clientID: 'cafb285f82b3c637550b',
-      //   clientSecret: 'a437e56cdc9b6ec41ee6361940e2afe8eb1676f6',
-      //   repo: 'javascript-apis',
-      //   owner: 'YanceyOfficial',
-      //   admin: ['YanceyOfficial'],
-      //   id: location.pathname,
-      //   distractionFreeMode: false,
-      // };
       const gitalk = new Gitalk(commentConfig);
       gitalk.render('gitalk-container');
     };
