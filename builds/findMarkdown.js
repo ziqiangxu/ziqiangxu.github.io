@@ -12,7 +12,8 @@ function findMarkdown(dir, callback) {
 
           if (stat.isDirectory()) {
             findMarkdown(innerDir, callback)
-          } else if (innerDir.toLowerCase().endsWith(".md") && innerDir.toLowerCase() != "readme.md"){
+          } else if (innerDir.toLowerCase().endsWith(".md") 
+          && !innerDir.toLowerCase().endsWith("readme.md")){
               // 只修改markdown文件
               callback(innerDir)
           }
