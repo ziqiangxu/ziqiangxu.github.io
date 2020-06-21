@@ -4,10 +4,12 @@
   "description": "blog source code",
   "main": "index.js",
   "repository": "git@github.com:ziqiangxu/ziqiangxu.github.io.git",
-  "author": "Daryl.Xu <ziqiang_xu@yeah.net>",
+  "author": "Daryl.Xu <ziqiang_xu@qq.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
+    "dev": "npm run docs:dev",
+    "build": "npm run docs:build",
     "docs:dev": "node ./builds/addComponents.js && yarn run compile:config && vuepress dev docs && node ./builds/delComponents.js",
     "docs:build": "node ./builds/addComponents.js && yarn run compile:config && vuepress build docs && node ./builds/delComponents.js",
     "compile:config": "tsc docs/.vuepress/*.ts",
