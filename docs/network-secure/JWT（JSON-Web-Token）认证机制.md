@@ -1,3 +1,5 @@
+# JWT(JSON-Web-Token)认证机制
+
 `JWT` 是`JSON Web Token`的缩写。我们用大写的`JWT`表示这种认证机制，我们用小写的`jwt`来表示`JWT`机制中的生成的`token`，`jwt`是一个字符串
 
 阮一峰老师的文章非常清楚地介绍了如何生成`jwt`这个`token`
