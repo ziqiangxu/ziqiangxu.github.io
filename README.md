@@ -8,6 +8,7 @@
 - 管理个人博客
 
 ``` bash
+# Now using node v14.5.0 (npm v6.14.5)
 npm run docs:build  # 构建文档
 npm run docs:dev  # 监控md文件变化
 ```
