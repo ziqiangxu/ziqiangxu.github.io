@@ -1,6 +1,6 @@
 # 通过读取设备文件监听键盘事件 `Linux`
 
-``` c++
+``` cpp
 #include <stdio.h>
 #include <linux/input.h>
 #include <fcntl.h>
@@ -48,3 +48,4 @@ return 0;
 ## 扩展阅读
 
 事件监听方案，推荐[Linux全局事件监听技术](https://www.jianshu.com/p/80cf81413d31)
+ 

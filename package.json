@@ -10,8 +10,8 @@
   "scripts": {
     "dev": "npm run docs:dev",
     "build": "npm run docs:build",
-    "docs:dev": "node ./builds/addComponents.js && yarn run compile:config && vuepress dev docs && node ./builds/delComponents.js",
-    "docs:build": "node ./builds/addComponents.js && yarn run compile:config && vuepress build docs && node ./builds/delComponents.js",
+    "docs:dev": "node ./builds/addComponents.js && vuepress dev docs && node ./builds/delComponents.js",
+    "docs:build": "node ./builds/addComponents.js && vuepress build docs && node ./builds/delComponents.js",
     "compile:config": "tsc docs/.vuepress/*.ts",
     "gen-index": "",
     "test": "tsc test/*.ts && node test/main.js"
