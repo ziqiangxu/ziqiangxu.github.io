@@ -27,3 +27,7 @@ source bin/activate
 将项目关联的所有库单独放在一个虚拟的环境里，可以轻松打包整个环境发送给其他人。只要他们的 `python` 版本和你的相同，你打包的代码就可以直接通过虚拟环境运行，不需要再安装任何库。
 
 参考文献：《Python网络数据采集》Ryan Mitchell著
+
+ 
+ <comment-comment/> 
+ 

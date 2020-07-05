@@ -33,3 +33,7 @@
 
 `macOS` 下也是一样的解决办法，相关的配置文件在
 `/Applications/DBeaver.app/Contents/Eclipse/dbeaver.ini`
+
+ 
+ <comment-comment/> 
+ 

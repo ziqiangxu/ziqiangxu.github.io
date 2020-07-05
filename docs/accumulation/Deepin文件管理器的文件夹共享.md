@@ -12,3 +12,7 @@ sudo apt install ufw  # 安装ufw
 sudo ufw allow 139  # 开启139端口
 sudo ufw reject 139  # 关闭139端口
 ```
+
+ 
+ <comment-comment/> 
+ 

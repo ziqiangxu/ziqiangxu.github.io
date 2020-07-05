@@ -50,3 +50,7 @@ git checkout -f
 > 这样配置，每次提交和拉取数据都要输入密码进行验证，很烦。可以配置服务器的[ssh免密登录](https://www.jianshu.com/p/6761199bedba)来进一步简化工作。
 
 您还可以参考[其他教程](https://git-scm.com/book/zh/v2/%E8%87%AA%E5%AE%9A%E4%B9%89-Git-Git-%E9%92%A9%E5%AD%90)，本教程适合快速实现需求，您需要学习更多git知识
+
+ 
+ <comment-comment/> 
+ 

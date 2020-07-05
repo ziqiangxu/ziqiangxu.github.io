@@ -9,3 +9,7 @@
 你的项目在`$GOPATH/src/bee_test`，该目录有一个`main.go`。
 1. 进入项目目录
 2. 输入`bee run`，当你修改了源代码的时候，`bee`就会自动编译并运行你的项目（相当于自动重新执行`go run main.go`）。
+
+ 
+ <comment-comment/> 
+ 

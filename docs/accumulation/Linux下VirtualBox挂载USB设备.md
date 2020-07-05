@@ -7,3 +7,7 @@ USB设备，需要将当前用户加入到"vboxuser"组中
 示例， `xu` 是我的用户名： `sudo gpasswd -a xu vboxusers`
 
 注销后重新登陆生效
+
+ 
+ <comment-comment/> 
+ 

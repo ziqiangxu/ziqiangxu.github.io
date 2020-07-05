@@ -42,7 +42,7 @@ mkswap /swap
 终端执行 `sudo sysctl -w vm.swappiness = 1`
 并在/etc/sysctl.d中创建一个名为local.conf的文件，为了使vm.swappiness保持不变，文件内容如下:
 
-``` text
+``` shell
 vm.swappiness = 1
 ```
 
@@ -74,7 +74,7 @@ vm.swappiness = 1
 
 一般配置文件/etc/uswsusp.conf内容如下所示：
 
-``` text
+```
 ＃/etc/uswsusp.conf（8） -- Configuration file for s2disk / s2both
 
 resume device= /swap
@@ -120,3 +120,7 @@ sudo update-grub
 ## 附录
 
 如果你的磁盘分区结构变了，比如 `sda3` 变成了 `sda4`，按照上面步骤再来一遍就好啦（因为需要更新 `grub` 和 `uswsusp.conf`）。
+
+ 
+ <comment-comment/> 
+ 

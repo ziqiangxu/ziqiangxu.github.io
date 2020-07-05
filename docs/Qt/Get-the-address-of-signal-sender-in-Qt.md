@@ -18,3 +18,7 @@ connect(input, &QLineEdit::returnPressed,
 qDebug("使用形式一")   //不需要include QDebug
 qDebug() << "使用形式二"  //需要引入QDebug类
 ```
+
+ 
+ <comment-comment/> 
+ 

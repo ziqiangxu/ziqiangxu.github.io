@@ -15,3 +15,7 @@ nginx把结果返回给浏览器
 把uri分解成fastcgi_script_name和fastcgi_path
 ### try_files
 ### fastcgi_param
+
+ 
+ <comment-comment/> 
+ 

@@ -62,3 +62,7 @@ title: Java技术名词扫盲
 - `Shiro` 安全框架，类似 `Spring Security`，可以处理认证、授权、管理会话、密码加密
 - `SOAP(Simple Object Access Protocol)` 简易对象访问协议，用于交换 `XML` 编码信息的轻量级协议
 - `REST([Resource] Representational State Transfer)` 资源表现层状态转移
+
+ 
+ <comment-comment/> 
+ 

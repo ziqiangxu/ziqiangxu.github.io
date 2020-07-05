@@ -6,3 +6,6 @@
 [https://stackoverflow.com/questions/14421897/is-the-pyside-slot-decorator-necessary/14431607#14431607](https://stackoverflow.com/questions/14421897/is-the-pyside-slot-decorator-necessary/14431607#14431607)
 
 [https://pyqt.readthedocs.io/en/latest/signals_slots.html#the-pyqtslot-decorator](https://pyqt.readthedocs.io/en/latest/signals_slots.html#the-pyqtslot-decorator)
+ 
+ <comment-comment/> 
+ 
