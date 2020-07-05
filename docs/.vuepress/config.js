@@ -24,6 +24,7 @@ module.exports = {
         // "/computer-visual/": [{title: "计算机视觉", collapsable: false, children: ["", "Numpy一些易忘点", "人工智能研究流派", "图像的形态学操作"]}],
         // "/": funSets.getSubDirs('docs', {genReadme: false})
         // },
+        // displayAllHeaders: true,
         repo: "https://github.com/ziqiangxu/ziqiangxu.github.io",
         repoLabel: "查看源码",
         docsDir: "docs",

@@ -5,7 +5,9 @@ actionLink: /Python/
 features:
 - title: 许自强的技术博客
   details: 记录杂七杂八的技术
-footer: MIT Licensed | Copyright © 2019-present Daryl Xu
+- title: 简洁至上
+  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注写作
+footer: MIT Licensed | Copyright © 2020-present Daryl Xu
 ---
 # 简短的自我介绍
 

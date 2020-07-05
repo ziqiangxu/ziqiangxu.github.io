@@ -1,3 +1,7 @@
+---
+sidebar: auto
+title: Java技术名词扫盲
+---
 # `Java` 技术名词扫盲
 
 ## 三个版本（Edition）
