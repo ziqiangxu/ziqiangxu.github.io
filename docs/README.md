@@ -7,7 +7,7 @@ features:
   details: 记录杂七杂八的技术
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注写作
-footer: MIT Licensed | Copyright © 2020-present Daryl Xu
+footer: MIT Licensed | Copyright © 2018-present Daryl Xu
 ---
 # 简短的自我介绍
 
