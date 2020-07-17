@@ -120,7 +120,3 @@ sudo update-grub
 ## 附录
 
 如果你的磁盘分区结构变了，比如 `sda3` 变成了 `sda4`，按照上面步骤再来一遍就好啦（因为需要更新 `grub` 和 `uswsusp.conf`）。
-
- 
- <comment-comment/> 
- 

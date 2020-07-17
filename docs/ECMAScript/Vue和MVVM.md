@@ -11,7 +11,3 @@
 目前在写 `Qt` 项目的时候也使用了类似的思想，不过只做了模型到视图的单向绑定
 
 [这篇文章写得很不错]((https://www.cnblogs.com/onepixel/p/6034307.html))
-
- 
- <comment-comment/> 
- 

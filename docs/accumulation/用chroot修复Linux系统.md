@@ -42,7 +42,3 @@ for i in /dev /dev/pts /proc /sys /run; do sudo mount -B $i /mnt$i; done
 ## 题外话
 
 `Deepin` 是我用得最久的 `Linux` 桌面发行版。现在用的电脑已经一年多没有重装系统了
-
- 
- <comment-comment/> 
- 

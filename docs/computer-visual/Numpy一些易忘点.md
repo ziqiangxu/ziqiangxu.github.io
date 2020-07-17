@@ -9,7 +9,3 @@
 # `numpy.int0()`
 
 同`int_(), intp()`相当于`long`
-
- 
- <comment-comment/> 
- 

@@ -41,7 +41,3 @@ user.email是github绑定的邮箱
 `https://name:password@github.com/name/project.git`
 的格式。其中`name `表示账号，`password`表示密码。`push`的时候会自动提交你的密码。此法适用于大部分git托管网站。
 享受高速的http传输吧
-
- 
- <comment-comment/> 
- 

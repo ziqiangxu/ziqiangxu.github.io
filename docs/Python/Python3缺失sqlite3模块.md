@@ -9,7 +9,3 @@ make
 make test    #安装前测试，可以看到还缺哪些
 make install
 ```
-
- 
- <comment-comment/> 
- 

@@ -72,7 +72,3 @@
 [freedestop的polkit介绍](https://www.freedesktop.org/software/polkit/docs/latest/polkit.8.html)
 [freedesktop的pkexec介绍](https://www.freedesktop.org/software/polkit/docs/latest/pkexec.1.html)
 [https://segmentfault.com/a/1190000008063961](https://segmentfault.com/a/1190000008063961)
-
- 
- <comment-comment/> 
- 

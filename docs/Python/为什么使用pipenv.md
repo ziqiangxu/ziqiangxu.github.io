@@ -48,7 +48,3 @@ pipenv shell  # 启动虚拟环境，需在有Pipfile的目录下执行此命令
 ## 注意
 
 用`pipreqs`或`freeze`导出的包名、版本并不完全正确，比如`yaml`相关的。
-
- 
- <comment-comment/> 
- 
