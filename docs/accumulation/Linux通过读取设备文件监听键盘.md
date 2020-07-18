@@ -31,9 +31,9 @@ while(1)
             if(t.value==0 || t.value==1)
             {
                 printf("key %d %s\n", t.code, (t.value) ? "Pressed" : "Released");  //t.code值所对应的按键在/usr/include/linux/input-event-codes.h可以查到
-				}
-		}
-	}
+            }
+        }
+    }
 }
 close(keys_fd);
 
@@ -41,7 +41,7 @@ return 0;
 }
 ```
 
-![附图](https://upload-images.jianshu.io/upload_images/6434906-f9c35524dc87577e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![附图](./img/listen-input-devices.png)
 操作其他的设备类似，不过要提前了解相关的数据结构
 但是这种监听是需要有设备文件的读取权限的（默认 `root` 用户才有）， `read` 函数是系统函数，阻塞地读取设备文件，当设备文件中的缓存为空时挂起等待。
 

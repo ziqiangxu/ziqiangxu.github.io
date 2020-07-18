@@ -10,7 +10,7 @@
 ## 方法二：polkit
 
 如图所示：
-![深度截图_deepin-graphics-driver-manager_20180905202415.png](https://upload-images.jianshu.io/upload_images/6434906-1abedfd0b8712af1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![深度截图_deepin-graphics-driver-manager_20180905202415.png](./img/linux-polkit-message-box.png)
 这种弹窗是经常见到的吧，这个是怎么调用出来的呢？
 
 常见的 `Linux` 发行版都有 `polkit` 模块，`Deepin` 也开发了一套，`dde-polkit-agent` 号称是遵守 `freedesktop` 规范的。

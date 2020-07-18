@@ -19,13 +19,13 @@
 /usr/lib/jvm/java-8-openjdk-amd64/bin
 ```
 
-![深度截图_选择区域_20171219192153.png](http://upload-images.jianshu.io/upload_images/6434906-e20d528976b092cc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![深度截图_选择区域_20171219192153.png](./img/xmind-ini-file.png)
 
 ## Tips
 
 注意这两行要加在 `-vmargs` 之前（`-vmargs` 用于指定虚拟机参数）
 
-![image.png](https://upload-images.jianshu.io/upload_images/6434906-f73deb33be84cc29.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](./img/xmind-ini-file2.png )
 
 重新打开软件，愉快的使用吧！
 

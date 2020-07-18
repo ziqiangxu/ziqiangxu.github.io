@@ -25,7 +25,7 @@ ssh-keygen -t rsa -b 4096 -C "你的邮箱地址"
 ```
 
 这条命令执行完之后，会提示你指定公钥和私钥的存储位置。
-![深度截图_选择区域_20180803235726.png](https://upload-images.jianshu.io/upload_images/6434906-1e172ec7abc663b1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![深度截图_选择区域_20180803235726.png](./img/ssh-key-saved-path.png)
 截图中指定的是 `/home/xu/test` 这个位置，届时私钥就存储在 `/home/xu/test`，公钥存储在 `/home/xu/test.pub`。公钥和私钥是成对的
 
 ### 2. 将公钥存储到远程主机

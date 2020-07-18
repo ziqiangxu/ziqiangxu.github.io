@@ -5,7 +5,7 @@
 出现错误 `Forbidden (CSRF cookie not set.): /wx`
 这是 `Django` 默认开启的一种防止跨域攻击的选项，要求用 `POST` 访问网站的时候提供 `CSRF cookie`（这个一般会在用户使用 `GET` 请求 `Django` 网站时颁发）
 截图
-![DeepinScreenshot_select-area_20171017210442.png](http://upload-images.jianshu.io/upload_images/6434906-b0273ed1b982f173.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![DeepinScreenshot_select-area_20171017210442.png](./img/pic1.png)
 此时，只要把项目中 `setting.py` 文件中
 
 ``` python

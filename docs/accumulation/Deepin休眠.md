@@ -61,13 +61,13 @@ vm.swappiness = 1
 
 - 配置uswsusp：
 终端执行 `sudo dpkg-reconfigure -pmedium uswsusp`，然后会出现如下提示框
-![深度截图_选择区域_20180605160224.png](https://upload-images.jianshu.io/upload_images/6434906-f8a2c6817f602996.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![深度截图_选择区域_20180605160224.png](./img/deepin-hibernate-msg-box.png)
 从这个问题开始全部选择确定，直到出现：
 
-![选择swap文件](https://upload-images.jianshu.io/upload_images/6434906-56736ba5323f58ad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![选择swap文件](./img/deepin-hibernate-select-swap-file.png)
 此处选择你要使用的swap文件，注：我这里是/var/swapfile这个文件
 
-![选择是否对休眠写入swap的数据加密](https://upload-images.jianshu.io/upload_images/6434906-e5389c6168ee53db.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![选择是否对休眠写入swap的数据加密](./img/deepin-hibernate-is-encrypt-data.png)
 根据需要选择就好（需要知晓的是，开启加密功能之后休眠的启动所消耗的时间会增加）。如果选择加密的话，它会提示你设定一个密码
 
 - 对uswsusp进行进一步配置
