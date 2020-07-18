@@ -22,6 +22,8 @@ npm run docs:dev  # 监控md文件变化
 
 ## 特性记录
 
+markdown 代码块可以使用的语言，见文件：`node_modules/prismjs/components.js`
+
 ### 目录标题生成
 
 来自于目录下的 `info.json`

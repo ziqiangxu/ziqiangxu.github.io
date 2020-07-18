@@ -16,7 +16,7 @@
 
 ### 第一步：挂载要修复系统的分区
 
-```shell
+``` bash
 # 备注，sda5是我的根分区，sda6是我的home分区。请根据实际情况执行指令
 sudo mount /dev/sda5 /mnt
 sudo mount /dev/sda6 /mnt/home 
@@ -24,7 +24,7 @@ sudo mount /dev/sda6 /mnt/home
 
 系统运行的时候还需要其它的一些虚拟分区【一些和设备有关的分区，这句话对不对各位看官自行斟酌】
 
-``` sh
+``` bash
 # 这条命令依次将live系统的 /dev /dev/pts /proc /sys /run 分区挂载到要修复的
 # 系统的根目录，这些分区在系统运行的时候是需要的
 for i in /dev /dev/pts /proc /sys /run; do sudo mount -B $i /mnt$i; done

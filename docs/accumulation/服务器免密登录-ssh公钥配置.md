@@ -16,7 +16,7 @@
 
 ### 1. 生成公钥
 
-``` sh
+``` bash
 # -t 指定加密算法；
 # -b 指定生成的密钥长度；
 # -C 一段字符，一般都填邮箱地址。
@@ -30,7 +30,7 @@ ssh-keygen -t rsa -b 4096 -C "你的邮箱地址"
 
 ### 2. 将公钥存储到远程主机
 
-``` sh
+``` bash
 # i后面接的参数是保存你公钥的文件(我们这里是.ssh/id_rsa.pub)；
 # git是远程主机的用户，这条指令会往git这个用户的主目录下的
 # .ssh/authorized_keys文件写入id_rsa.pub保存的公钥
@@ -43,7 +43,7 @@ ssh-copy-id -i .ssh/id_rsa.pub git@12.56.224.61
 
 检查 `ssh` 服务的配置文件—— `/etc/ssh/sshd_config`
 
-``` sh
+``` bash
 RSAAuthentication yes    # 这行一定要取消注释的（删掉#号）
 PubkeyAuthentication yes    # 我的服务器没这行，不添加似乎也能用
 AuthorizedKeysFile .ssh/authorized_keys    # 我的服务器没这行，不添加似乎也能用

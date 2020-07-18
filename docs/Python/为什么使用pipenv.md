@@ -18,10 +18,10 @@
 
 [看 `pipenv` 项目的维护者说，它到底解决了什么？](https://lax.v2ex.com/t/461581)
 
-``` sh
+``` bash
 pip3 install pipenv  # 安装pipenv工具
 pipenv install  # 从Pipfile.lock安装需要的依赖
-pipenv shell  # 启动虚拟环境，需在有Pipfile的目录下执行此命令
+pipenv bash  # 启动虚拟环境，需在有Pipfile的目录下执行此命令
 ```
 
 更加详细的[指南](https://pipenv.readthedocs.io/en/latest/)

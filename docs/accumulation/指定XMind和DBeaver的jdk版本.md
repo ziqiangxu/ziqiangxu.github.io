@@ -14,7 +14,7 @@
 我的是在这里哦： `/usr/share/xmind/XMind_amd64/XMind.ini`
 加入两行(指定 `Java` 虚拟机)
 
-``` sh
+``` bash
 -vm
 /usr/lib/jvm/java-8-openjdk-amd64/bin
 ```

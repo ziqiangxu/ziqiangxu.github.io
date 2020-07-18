@@ -21,7 +21,7 @@
 安装过程是需要关闭显示服务器的
 1. 注销当前登录用户
 2. 按`Ctrl + Alt + F3`进入tty3，登录后执行
-``` shell
+``` bash
 sudo systemctl stop lightdm  # 关闭显示服务器
 ```
 3. `sudo sh <*.run文件>`

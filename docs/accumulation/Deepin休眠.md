@@ -25,7 +25,7 @@
 
 ### 1. 创建一个swap文件
 
-``` shell
+``` copy-to-clipboard
 fallocate -l 256m /swap
 mkswap /swap
 ```
@@ -36,13 +36,13 @@ mkswap /swap
 
 - 挂载swap文件
 将此行添加到/etc/fstab文件中：
-`/swap swap swap defaults 0 0` 
+`/swap swap swap defaults 0 0`
 
 - 减少使用swap文件
 终端执行 `sudo sysctl -w vm.swappiness = 1`
 并在/etc/sysctl.d中创建一个名为local.conf的文件，为了使vm.swappiness保持不变，文件内容如下:
 
-``` shell
+``` copy-to-clipboard
 vm.swappiness = 1
 ```
 
@@ -74,7 +74,7 @@ vm.swappiness = 1
 
 一般配置文件/etc/uswsusp.conf内容如下所示：
 
-```
+``` copy-to-clipboard
 ＃/etc/uswsusp.conf（8） -- Configuration file for s2disk / s2both
 
 resume device= /swap
@@ -108,11 +108,11 @@ resume offset = 8288
 
 ## 测试休眠
 
-终端执行：`sudo s2disk `
+终端执行：`sudo s2disk`
 
-**注**：配置成功之后，如果再次修改了uswsusp的设置需要执行 
+**注**：配置成功之后，如果再次修改了 `uswsusp` 的设置需要执行
 
-``` shell
+``` bash
 sudo update-initramfs -u
 sudo update-grub
 ```

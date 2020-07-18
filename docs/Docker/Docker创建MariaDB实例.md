@@ -6,14 +6,14 @@
 
 [参考链接](https://yeasy.gitbooks.io/docker_practice/install/)
 
-``` shell
+``` bash
 docker run -p 0.0.0.0:3307:3306 \
 --name [数据库名字]
 -v [宿主机的路径]:[docker容器的路径] \
 -e MYSQL_ROOT_PASSWORD=[数据库root用户密码] \
 -dit mariadb
 ```
-``` shell
+``` bash
 -p 端口映射：宿主机 3307 端口映射到 docker 实例的 3306 端口
 --name 指定实例名称
 -v 将宿主机的文件路径挂载到容器的路径

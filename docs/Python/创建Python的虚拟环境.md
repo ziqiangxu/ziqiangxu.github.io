@@ -11,7 +11,7 @@
 
 ## 激活虚拟空间：
 
-``` shell
+``` bash
 cd env
 source bin/activate
 ```

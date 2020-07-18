@@ -1,6 +1,6 @@
 # `emacs` 背景和文字颜色配置
 
-``` sh
+``` bash
 M-x
 customize-face # 回车
 default # 回车

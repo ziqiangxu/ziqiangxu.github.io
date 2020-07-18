@@ -38,7 +38,7 @@ git push master
 git checkout -f
 ```
 还可以直接编辑仓库里.git/hooks/目录下新建一个post-update文件，内容是
-``` shell
+``` bash
 #!/bin/sh
 cd [仓库路径]
 unset GIT_DIR
