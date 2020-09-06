@@ -1,7 +1,10 @@
 "use strict";
 exports.__esModule = true;
-// var funSets = require("./funSets");
-// funSets.getSubDirs('docs', { genReadme: true });
+
+// 为每个目录生成索引文件
+var funSets = require("./funSets");
+funSets.getSubDirs('docs', { genReadme: true });
+
 // 网站必要的配置文件
 module.exports = {
     base: "/blog/",
@@ -13,9 +16,10 @@ module.exports = {
     themeConfig: {
         // 导航栏
         nav: [
-            { text: '主页', link: '/' },
+            // { text: '主页', link: '/' },
             // 以斜杠结尾会路由到目录下的README.md
             { text: '未分类', link: '/accumulation/' },
+            { text: '随笔', link: '/personal-diary/'},
             { text: '编程语言', items: [
                 { text: 'Java', link: '/Java/' },
                 { text: 'Golang', link: '/Golang/' },
