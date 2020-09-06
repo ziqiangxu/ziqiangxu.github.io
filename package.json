@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "dev": "npm run docs:dev",
+    "dev": "vuepress dev docs",
     "build": "npm run docs:build",
     "docs:dev": "node ./builds/addComponents.js && vuepress dev docs && node ./builds/delComponents.js",
     "docs:build": "node ./builds/addComponents.js && vuepress build docs && node ./builds/delComponents.js",
@@ -20,8 +20,7 @@
     "@types/node": "^11.15.16",
     "fs": "^0.0.1-security",
     "md5": "^2.2.1",
-    "typescript": "^3.9",
-    "vuepress": "^1.5.2",
+    "vuepress": "^1.5.4",
     "webpack": "^4.43.0",
     "yarn": "^1.22.4"
   }
