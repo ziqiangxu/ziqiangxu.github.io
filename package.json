@@ -8,9 +8,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "dev": "vuepress dev docs",
+    "dev": "npm run docs:dev",
     "build": "npm run docs:build",
-    "docs:dev": "node ./builds/addComponents.js && vuepress dev docs && node ./builds/delComponents.js",
+    "docs:dev": "vuepress dev docs",
     "docs:build": "node ./builds/addComponents.js && vuepress build docs && node ./builds/delComponents.js",
     "compile:config": "tsc docs/.vuepress/*.ts",
     "gen-index": "",
