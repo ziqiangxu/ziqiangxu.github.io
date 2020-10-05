@@ -2,8 +2,8 @@
 exports.__esModule = true;
 
 // 为每个目录生成索引文件
-var funSets = require("./funSets");
-funSets.getSubDirs('docs', { genReadme: true });
+// var funSets = require("./funSets");
+// funSets.getSubDirs('docs', { genReadme: true });
 
 // 网站必要的配置文件
 module.exports = {
@@ -20,16 +20,13 @@ module.exports = {
             // 以斜杠结尾会路由到目录下的README.md
             { text: '未分类', link: '/accumulation/' },
             { text: '随笔', link: '/personal-diary/'},
+            { text: 'CV', link: '/computer-visual/'},
             { text: '编程语言', items: [
                 { text: 'Java', link: '/Java/' },
                 { text: 'Golang', link: '/Golang/' },
                 { text: 'Python', link: '/Python/' },
-                { text: 'C/C++', link: '/C/'}
-            ]},
-            { text: 'Web', items: [
-                { text: '网络安全', link: '/network-secure/' },
+                { text: 'C/C++', link: '/C/'},
                 { text: 'ECMAScript', link: '/ECMAScript/'},
-                { text: 'Docker', link: '/Docker/' }
             ]},
             { text: '其它', items: [
                 { text: '软件工程', link: '/software-engineering/' },
@@ -37,7 +34,8 @@ module.exports = {
                 { text: '操作系统', link: '/OS/' },
                 { text: 'Git', link: '/Git/' },
                 { text: 'Qt', link: '/Qt/' },
-                { text: 'CV', link: '/computer-visual/'},
+                { text: 'Docker', link: '/Docker/' },
+                { text: '网络安全', link: '/network-secure/' }
             ]}
         ],
         // 侧边栏，需要将路径写到这个列表里
@@ -58,6 +56,6 @@ module.exports = {
         editLinks: true,
         editLinkText: "改进这篇文章",
         lastUpdated: "最后更新",
-        displayAllHeaders: true
+        // displayAllHeaders: true
     }
 };
