@@ -1,3 +1,6 @@
+---
+sidebar: auto
+---
 # 医疗图像软件
 
 注意，以下许多网站需要科学上网才能访问
@@ -38,7 +41,9 @@
 - [https://www.mitk.org](https://www.mitk.org/)
 - Open Health Imaging Foundation [https://ohif.org](https://ohif.org/)， [相关demo](https://viewer.ohif.org/)
 
-## PACS： Picture Archiving and Comunication System
+## PACS
+
+Picture Archiving and Comunication System 的缩写
 
 - `Orthanc` 一个开源的 `PACS` 软件，官网 [https://www.orthanc-server.com](https://www.orthanc-server.com/)
 - [https://medevel.com/10-open-source-pacs-dicom](https://medevel.com/10-open-source-pacs-dicom/) 搜集了一些开源 `PACS`
