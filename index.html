@@ -17,6 +17,7 @@
 <script>
   window.onload = function () {
     window.location.herf="blog"
+    // setTimeout(() => {location.reload()}, 3000)
   }
 </script>
 <!-- End Jekyll SEO tag -->
@@ -24,42 +25,55 @@
     <link rel="stylesheet" href="/assets/css/style.css?v=0da80300b37aeb6044b0ec98af6264196c418222">
   </head>
   <body>
-    <div>
+    <div id="main">
       <div id="self-intro">
           <p>
-            <b>一个简短的自我介绍</b><br>
+            <div class="header1">一个简短的自我介绍</div>
             我本是一个学习化工的孩子，一不小心入了计算机的坑，再也爬不出来了。
             现在主要从事软件开发方面的工作，对WEB开发、Linux桌面、
             计算机视觉比较感兴趣。
           </p>
           <p>
-            <b>主要使用编程语言</b><br>
+            <div class="header1">主要使用编程语言</div>
             <code>C, C++, Golang, TypeScript, Python, Java</code>
           </p>
           <p>
-            <b>主要使用的技术</b><br>
-            Web:
-            <code>gRPC, SpringBoot, Django, Vue, Docker</code></br>
-            Linux桌面:
-            <code>Qt, PyQt5, Electron</code><br>
-            计算机视觉:
-            <code>OpenCV, Keras</code>
+            <div class="header1">主要使用的技术</div>
+            <div>
+              Web:
+              <code>gRPC, SpringBoot, Django, Vue, Docker</code></br>
+              Linux桌面:
+              <code>Qt, PyQt5, Electron</code><br>
+              计算机视觉:
+              <code>OpenCV, Keras</code>
+            </div>
           </p>
-          <p>
-            我是一个涉猎广泛的程序员，我所掌握的技术不限于上述，不过我们
-            要是交流上面的技术，那再好不过了。
-          </p>
-          <p>
-            我的所有博客已搬迁到
+      </div>
+      <p>
+        <div>
+          <span>
+            我的所有博客已搬迁到：
             <a href="https://ziqiangxu.github.io/blog/">
               https://ziqiangxu.github.io/blog
             </a>
-          </p>
-      </div>
-      我常溜达的地方：<a href="https://bbs.deepin.org/">深度论坛</a>
+          </span>
+        </div>
+        <div>
+          <span>
+            我的<code>Github</code>：
+            <a href="https://github.com/ziqiangxu">https://github.com/ziqiangxu</a>
+          </span>
+        </div>
+        <div>
+          <span>
+            我常溜达的地方：
+            <a href="https://bbs.deepin.org/">深度论坛</a>
+          </span>
+        </div>
+      </p>
       <div id="footer">
           <p>
-             联系我：<code>ziqiang_xu#yeah.net</code>
+             联系我：<code>ziqiang_xu#qq.com</code>
           </p>
       </div>
     </div>
@@ -75,11 +89,20 @@
   <style>
     body {
       background-color: gainsboro;
+      /* text-align: center; */
     }
+    #main {
+      margin: auto;
+      width: 480px;
+    }
+
+    .header1 {
+      text-align: center;
+      font-weight: bold;
+    }
+
     #self-intro {
       font-style: italic;
-      /* width: 500px; */
-      /* text-align: center; */
     }
     #footer {
       text-align: right;
