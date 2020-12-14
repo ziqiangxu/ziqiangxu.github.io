@@ -1,3 +1,8 @@
+---
+layout: post
+title: 将 Gradle 镜像源改为阿里源
+description: 将 Gradle 镜像源改为阿里源
+---
 # 将 `Gradle` 镜像源改为阿里源
 
 1. 全局修改

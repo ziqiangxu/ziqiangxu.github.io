@@ -1,6 +1,11 @@
 ---
 sidebar: auto
 title: Java技术名词扫盲
+meta:
+  - name: keywords
+    content: EE SE ME Eureke IoC DI Spring AOP JDBC
+  - name: description
+    content: Java 技术名词扫盲
 ---
 # `Java` 技术名词扫盲
 
