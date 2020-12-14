@@ -17,10 +17,10 @@
     "test": "tsc test/*.ts && node test/main.js"
   },
   "dependencies": {
-    "@types/node": "^11.15.29",
+    "@types/node": "^11.15.40",
     "fs": "^0.0.1-security",
     "md5": "^2.3.0",
-    "vuepress": "^1.6.0",
+    "vuepress": "^1.7.1",
     "webpack": "^4.44.2",
     "yarn": "^1.22.10"
   }
