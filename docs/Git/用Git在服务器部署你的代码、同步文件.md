@@ -7,12 +7,14 @@
 4......还有很多，等你去发现呢
 开始干活儿：
 
-### 第一步 配置服务端：
+## 第一步 配置服务端：
 
  假设:
+
 - 当前用户名是test;
 - ip地址是：45.76.222.90
 - 当前目录是/home/test/
+
 1、服务器安装git，并初始化仓库 git init [仓库名]
 ```git init git-test```
 然后就出现了一个git-test文件夹
@@ -22,28 +24,33 @@
 这样就产生了一个远程仓库，仓库地址是
 ```ssh://test@45.76.222.90:/home/test/git-test.git```
 
-### 第二步 配置本地端：
+## 第二步 配置本地端
 
 ```git clone ssh://test@45.76.222.90:/home/test/git-test.git```
 然后就可以向服务端push文件了,要使用这一组命令
-```
+
+``` bash
 git add .
 git commit -m "fast-commit"
 git push master
 ```
 
-### 第三步 服务端接收文件
+## 第三步 服务端接收文件
 
-```git update-server-info
+``` bash
+git update-server-info
 git checkout -f
 ```
+
 还可以直接编辑仓库里.git/hooks/目录下新建一个post-update文件，内容是
+
 ``` bash
 #!/bin/sh
 cd [仓库路径]
 unset GIT_DIR
 git checkout -f
 ```
+
 > 记得给这个脚本添加可执行权限
 
 这样本地提交代码之后服务器就可以自动检出了，当然你也可以在这个文件里加入更多的Linux命令，实现你的想要执行的操作。

@@ -13,6 +13,7 @@ docker run -p 0.0.0.0:3307:3306 \
 -e MYSQL_ROOT_PASSWORD=[数据库root用户密码] \
 -dit mariadb
 ```
+
 ``` bash
 -p 端口映射：宿主机 3307 端口映射到 docker 实例的 3306 端口
 --name 指定实例名称

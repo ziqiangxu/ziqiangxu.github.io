@@ -1,6 +1,7 @@
 # `npm` 踩坑日记
 
 ## 意外中断
+
 `verbose stack ZlibError: zlib: unexpected end of file` 这个很有可能是在下载包的时候`npm` 被意外中断（比如说你按了 `Ctrl + C` ）导致的。
 
 > 解决方案：清除 `npm` 缓存，`npm cache clear --force`

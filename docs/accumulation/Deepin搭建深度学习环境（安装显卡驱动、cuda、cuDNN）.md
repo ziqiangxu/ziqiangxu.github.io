@@ -53,6 +53,3 @@ b. 是否安装比较新的驱动，要选 `yes` 哈，否则没办法开机了�
 ### 参考链接
 
 https://wiki.deepin.org/wiki/%E6%98%BE%E5%8D%A1#.E5.AE.89.E8.A3.85.E9.97.AD.E6.BA.90.E9.A9.B1.E5.8A.A8
-
-本文永久更新链接[https://www.jianshu.com/p/faece1be1c87](https://www.jianshu.com/p/faece1be1c87)
-最近一次修订：20190526

@@ -9,7 +9,7 @@
 这样就创建了一个名为 `env` 的虚拟环境。如果提示 `virtualen：未找到命令` 的话，
 安装一下这个命令就好了： `sudo apt-get install virtualenv`
 
-## 激活虚拟空间：
+## 激活虚拟空间
 
 ``` bash
 cd env

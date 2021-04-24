@@ -30,12 +30,12 @@ pipenv bash  # 启动虚拟环境，需在有Pipfile的目录下执行此命令
 
 ## **以下内容已过时，今后不在项目中使用，但是对于非正式部署的项目仍然有价值**
 
-## 导出开发环境需要的所有依赖包清单：
+## 导出开发环境需要的所有依赖包清单
 
 使用pip freeze
 `pip freeze > requirements.txt`
 
-## 导出项目所需要的依赖包清单：
+## 导出项目所需要的依赖包清单
 
 使用`pipreqs`命令
 安装pipreqs：`pip install pipreqs`

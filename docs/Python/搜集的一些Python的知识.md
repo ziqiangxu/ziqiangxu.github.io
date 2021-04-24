@@ -10,5 +10,5 @@
 
 ## 启动一个 `HTTP` 服务
 
--  查看帮助: `python3 -m http.server --help`
+- 查看帮助: `python3 -m http.server --help`
 - 在 80 端口提供 `HTTP` 服务：`python3 -m http.server 80`
