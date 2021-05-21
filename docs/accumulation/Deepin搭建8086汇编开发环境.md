@@ -20,6 +20,7 @@
 然后下载[工具包](https://github.com/ziqiangxu/sources1/raw/master/assume/dosbox.zip)（包含 `link.exe` 和 `masm.exe` ），将其解压到drive_c这个目录之后，只需要在dos里边键入程序的路径就可以使用他们了
 （另： `sudo apt install dosbox` 可以安装 `dosbox` 这个软件，也可以模拟 `dos`。）
 
-## 参考链接：
-[https://www.jianshu.com/p/29114c96c36f](https://www.jianshu.com/p/29114c96c36f)    
-[https://blog.csdn.net/doniexun/article/details/45438457](https://blog.csdn.net/doniexun/article/details/45438457)
+## 参考链接
+
+1. [https://www.jianshu.com/p/29114c96c36f](https://www.jianshu.com/p/29114c96c36f)
+1. [https://blog.csdn.net/doniexun/article/details/45438457](https://blog.csdn.net/doniexun/article/details/45438457)
