@@ -46,7 +46,7 @@ A、B两个同学在开发同一个软件
 
 ### 场景四
 
-如何配合 `pipenv` 对 `Python` 虚拟环境进行版本管理？[Pipenv简明教程](../Python/Pipenv简明教程.md)
+如何配合 `pipenv` 对 `Python` 虚拟环境进行版本管理？[Pipenv简明教程](../Python/pipenv-simple-tutorial.md)
 
 > 解决方案：对 `Pipfile` 和 `Pipfile.lock` 进行版本管理就好了呀
 
