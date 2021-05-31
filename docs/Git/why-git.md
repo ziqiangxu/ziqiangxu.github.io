@@ -18,7 +18,7 @@
 
 > 其他的类似工具还有：`CVS`,`SVN`(曾经的王者)。`Git` 直译过来是**饭桶**的意思，由 `Linux` 之父 `Linux Torvalds` 两周完成初始开发，一月之内 `Linux` 的庞大代码库就由 `Git` 进行管理了。（[引自廖雪峰](https://www.liaoxuefeng.com/wiki/896043488029600/896202815778784)）
 
-![使用Git协作](why-git/git-flow.png)
+![使用Git协作](./why-git/git-flow.png)
 
 ## 考虑如下的场景
 
