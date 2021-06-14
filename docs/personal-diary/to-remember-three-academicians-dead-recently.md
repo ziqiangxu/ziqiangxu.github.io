@@ -1,12 +1,11 @@
 ---
 sidebar: auto
-title: Java技术名词扫盲
+title: 缅怀近期逝世的三位院士
 date: 2021-06-14
 meta:
   - name: keywords
     content: 袁隆平 吴孟超 陈清如
 ---
-# 缅怀近期逝世的三位院士
 
 近期，有三位院士永远地离开了这个世界。
 
