@@ -8,3 +8,4 @@ editLink: false
 - [以前觉得比较有意思的句子](小本本.md)
 - [给电脑安装一个扩展触摸屏](给电脑安装一个扩展触摸屏.md)
 - [做自己](do-yourself.md)
+- [缅怀近期逝世的三位院士](./to-remember-three-academicians-dead-recently.md)
