@@ -1,1 +1,4 @@
+.temp
+.cache
+*.pdf
 node_modules
