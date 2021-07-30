@@ -8,8 +8,8 @@ exports.__esModule = true;
 // 网站必要的配置文件
 module.exports = {
     base: "/blog/",
-    // title: "daryl",
-    description: "description from config.js",
+    title: "Daryl's blog",
+    description: '从开源中来，到开源中去!',
     markdown: {
         lineNumbers: true
     },
