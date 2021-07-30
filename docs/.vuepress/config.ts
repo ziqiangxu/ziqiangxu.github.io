@@ -15,20 +15,20 @@ module.exports = {
     },
     themeConfig: {
         // 导航栏
-        nav: [
+        navbar: [
             // { text: '主页', link: '/' },
             // 以斜杠结尾会路由到目录下的README.md
             { text: '未分类', link: '/accumulation/' },
             { text: '随笔', link: '/personal-diary/'},
             { text: 'CV', link: '/computer-visual/'},
-            { text: '编程语言', items: [
+            { text: '编程语言', children: [
                 { text: 'Java', link: '/Java/' },
                 { text: 'Golang', link: '/Golang/' },
                 { text: 'Python', link: '/Python/' },
                 { text: 'C/C++', link: '/C/'},
                 { text: 'ECMAScript', link: '/ECMAScript/'},
             ]},
-            { text: '其它', items: [
+            { text: '其它', children: [
                 { text: '软件工程', link: '/software-engineering/' },
                 { text: '数据结构', link: '/data-structure/' },
                 { text: '操作系统', link: '/OS/' },
@@ -55,7 +55,9 @@ module.exports = {
         docsDir: "docs",
         editLinks: true,
         editLinkText: "改进这篇文章",
-        lastUpdated: "最后更新",
+        lastUpdated: true,
+        contributors: true,
+        lastUpdatedText: "最后更新",
         // displayAllHeaders: true
     }
 };
