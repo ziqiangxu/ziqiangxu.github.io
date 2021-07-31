@@ -56,7 +56,7 @@ module.exports = {
         editLinks: true,
         editLinkText: "改进这篇文章",
         lastUpdated: true,
-        contributors: true,
+        contributors: false,
         lastUpdatedText: "最后更新",
         // displayAllHeaders: true
     }
