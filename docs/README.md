@@ -14,6 +14,6 @@ footer: Powered by VuePress2.x | Copyright © 2018-present Daryl.Xu
   - [为什么使用pipenv](Python/为什么使用pipenv.md)
   - [pipenv简明教程](Python/pipenv-simple-tutorial.md)
 - 2020/10/06
-  - [医疗图像软件](computer-visual/awesome-medical-image-software.md)
+  - [医疗图像软件](computer-vision/awesome-medical-image-software.md)
 - 2020/07/18
   - [给电脑安装一个扩展触摸屏](personal-diary/给电脑安装一个扩展触摸屏.md)

@@ -20,7 +20,7 @@ module.exports = {
             // 以斜杠结尾会路由到目录下的README.md
             { text: '未分类', link: '/accumulation/' },
             { text: '随笔', link: '/personal-diary/'},
-            { text: 'CV', link: '/computer-visual/'},
+            { text: 'CV', link: '/computer-vision/'},
             { text: '编程语言', children: [
                 { text: 'Java', link: '/Java/' },
                 { text: 'Golang', link: '/Golang/' },
