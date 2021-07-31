@@ -11,7 +11,7 @@
     "dev": "npm run docs:dev",
     "build": "vuepress build docs",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "node ./builds/addComponents.js && vuepress build docs && node ./builds/delComponents.js",
+    "docs:build": "vuepress build docs",
     "compile:config": "tsc docs/.vuepress/*.ts",
     "gen-index": "",
     "test": "tsc test/*.ts && node test/main.js"

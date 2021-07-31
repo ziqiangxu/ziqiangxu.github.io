@@ -1,5 +1,6 @@
 ---
 editLink: false
+sidebar: false
 ---
 # 网络安全
 

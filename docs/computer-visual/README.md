@@ -1,5 +1,6 @@
 ---
 editLink: false
+sidebar: false
 ---
 # 计算机视觉
 

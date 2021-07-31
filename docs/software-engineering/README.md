@@ -1,5 +1,6 @@
 ---
 editLink: false
+sidebar: false
 ---
 # 软件工程
 
