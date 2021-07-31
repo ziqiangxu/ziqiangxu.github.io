@@ -36,7 +36,8 @@ module.exports = {
                 { text: 'Qt', link: '/Qt/' },
                 { text: 'Docker', link: '/Docker/' },
                 { text: '网络安全', link: '/network-secure/' }
-            ]}
+            ]},
+            { text: '关于我', link: 'about-me.md'}
         ],
         // 侧边栏，需要将路径写到这个列表里
         // 注意： 目录下必须要有README.md， 【可能是因为目录最终显示的文字是来自于README.md的一级标题】
@@ -51,7 +52,7 @@ module.exports = {
         // "/": funSets.getSubDirs('docs', {genReadme: false})
         // },
         repo: "https://github.com/ziqiangxu/ziqiangxu.github.io",
-        repoLabel: "查看源码",
+        repoLabel: "博客源码",
         docsDir: "docs",
         editLinks: true,
         editLinkText: "改进这篇文章",

@@ -1,29 +1,19 @@
 ---
 home: true
-features:
-- title: 师兄对我们说
-  details: 要多做事，奉献让人成长！
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注写作。
-- title: Vue3 驱动
-  details: 享受 Vue 的开发体验，可以在 Markdown 中使用 Vue 组件，又可以使用 Vue 来开发自定义主题。
-footer: MIT Licensed | Copyright © 2018-present Daryl Xu
+sidebar: false
+editLink: false
+title: 最新动态
+footer: Powered by VuePress2.x | Copyright © 2018-present Daryl.Xu
 ---
-# 许自强的博客
-
-欢迎来到我的博客
-
-## 关于我
-
-自从入了计算机的坑，再也爬不出来了。
-
-目前从事医疗影像和数据管理方面的软件开发工作，对 `WEB` 开发、`Linux` 桌面、
-计算机视觉比较感兴趣。
-
-热爱开源，热爱技术。
-
-[`GitHub`](https://github.com/ziqiangxu)
-[`Gitee`](https://gitee.com/daryl6)
-[微博](https://weibo.com/u/2764693391)
-
-本博客由 [VuePress2.x](https://v2.vuepress.vuejs.org/zh/) 强力驱动
+- 2021/06/14
+  - [缅怀近期逝世的三位院士](personal-diary/to-remember-three-academicians-dead-recently.md)
+- 2021/05/21
+  - [做自己](personal-diary/be-yourself.md)
+  - [肺癌的分型与分期](computer-visual/lung-cancer-classification.md)
+- 2021/04/24
+  - [为什么使用pipenv](Python/为什么使用pipenv.md)
+  - [pipenv简明教程](Python/pipenv-simple-tutorial.md)
+- 2020/10/06
+  - [医疗图像软件](computer-visual/awesome-medical-image-software.md)
+- 2020/07/18
+  - [给电脑安装一个扩展触摸屏](personal-diary/给电脑安装一个扩展触摸屏.md)

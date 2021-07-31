@@ -8,7 +8,7 @@ features:
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注写作。
 - title: Vue3 驱动
   details: 享受 Vue 的开发体验，可以在 Markdown 中使用 Vue 组件，又可以使用 Vue 来开发自定义主题。
-footer: MIT Licensed | Copyright © 2018-present Daryl Xu
+footer: Copyright © 2018-present Daryl.Xu
 ---
 # 关于我
 
@@ -23,6 +23,7 @@ footer: MIT Licensed | Copyright © 2018-present Daryl Xu
 
 **技术标签**：`gRPC` `SpringBoot` `flask` `Vue` `Docker` `Qt` `Electron` `Pytorch`
 
+**社交账号**：
 [`GitHub`](https://github.com/ziqiangxu)
 [`Gitee`](https://gitee.com/daryl6)
 [微博](https://weibo.com/u/2764693391)

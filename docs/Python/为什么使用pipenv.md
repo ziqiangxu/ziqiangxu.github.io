@@ -1,5 +1,7 @@
-# `Python` 依赖包管理
-
+---
+date: 2021/04/24
+title: Python依赖包管理
+---
 转了一圈，又回到了 `pipenv`, 它确实是更加现代的包管理工具，它是 `pip` 和 `virtualenv` 的结合体
 它主要的改进在 `Pipfile.lock` 文件，它比一个纯文本的 `requirements.txt` 文件表达力要强得多。
 更重要的是用 `pipreqs` 或 `freeze` 导出的包名、版本（生成一个 `requirements.txt` 文件）并不完全正确，它们是不可靠的，而 `pipenv` 是可靠的。

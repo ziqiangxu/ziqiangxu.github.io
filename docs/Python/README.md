@@ -14,4 +14,4 @@ sidebar: false
 - [创建 `Python` 虚拟环境](创建Python的虚拟环境.md)
 - [在 `Django` 项目中使用 `MySql`](在Django项目中使用MySQL.md)
 - [搜集的一些 `Python` 知识](搜集的一些Python的知识.md)
-- [Pipenv简明教程](pipenv-simple-tutorail.md)
+- [Pipenv简明教程](pipenv-simple-tutorial.md)

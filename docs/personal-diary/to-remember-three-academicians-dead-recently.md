@@ -1,7 +1,7 @@
 ---
 sidebar: auto
 title: 缅怀近期逝世的三位院士
-date: 2021-06-14
+date: 2021/06/14
 meta:
   - name: keywords
     content: 袁隆平 吴孟超 陈清如
