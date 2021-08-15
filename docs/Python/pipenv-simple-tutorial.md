@@ -1,5 +1,5 @@
 ---
-date: 2021/04/24
+date: 2021-04-24
 title: pipenv简要教程
 ---
 ``` bash

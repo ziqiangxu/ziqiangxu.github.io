@@ -1,6 +1,6 @@
 ---
 sidebar: auto
-date: 2020/10/06
+date: 2020--10-06
 title: 医疗图像软件
 ---
 

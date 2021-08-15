@@ -1,5 +1,5 @@
 ---
-date: 2021/04/24
+date: 2021-04-24
 title: Python依赖包管理
 ---
 转了一圈，又回到了 `pipenv`, 它确实是更加现代的包管理工具，它是 `pip` 和 `virtualenv` 的结合体
