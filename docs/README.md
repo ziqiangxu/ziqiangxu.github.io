@@ -5,6 +5,11 @@ editLink: false
 title: 最新动态
 footer: Powered by VuePress2.x | Copyright © 2018-present Daryl.Xu
 ---
+- 2021-10-31
+  - [对设计模式的思考](software-engineering/thoughts-on-design-pattern.md)
+  - [给 `debian` 系发行版安装钉钉](accumulation/install-dingtalk-on-debian-based-distribution.md)
+- 2021-10-21
+  - [被“医工交叉”填满的一天](personal-diary/a-medical-engineering-cross-filled-day.md)
 - 2021-06-14
   - [缅怀近期逝世的三位院士](personal-diary/to-remember-three-academicians-dead-recently.md)
 - 2021-05-21
