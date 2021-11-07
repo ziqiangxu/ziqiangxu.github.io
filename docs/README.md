@@ -5,6 +5,8 @@ editLink: false
 title: 最新动态
 footer: Powered by VuePress2.x | Copyright © 2018-present Daryl.Xu
 ---
+- 2021-11-07
+  - [软件发布和维护流程实践](software-engineering/software-release-and-maintain-flow-practice.md)
 - 2021-10-31
   - [对设计模式的思考](software-engineering/thoughts-on-design-pattern.md)
   - [给 `debian` 系发行版安装钉钉](accumulation/install-dingtalk-on-debian-based-distribution.md)
