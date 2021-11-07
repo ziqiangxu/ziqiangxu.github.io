@@ -19,9 +19,9 @@ footer: Copyright © 2018-present Daryl.Xu
 
 热爱开源，热爱技术。
 
-**编程语言**：`Python` `Java` `TypeScript` `Golang` `C++`
+**编程语言**：`Python` `Java` `TypeScript` `Golang` `C++` `Rust`
 
-**技术标签**：`gRPC` `SpringBoot` `flask` `Vue` `Docker` `Qt` `Electron` `Pytorch`
+**技术标签**：`gRPC` `SpringBoot` `flask` `Vue` `React` `Docker` `Qt` `Electron` `Pytorch`
 
 **社交账号**：
 [`GitHub`](https://github.com/ziqiangxu)
