@@ -1,19 +1,21 @@
-"use strict";
-exports.__esModule = true;
+// "use strict";
+// exports.__esModule = true;
+import { defaultTheme } from 'vuepress'
 
 // 为每个目录生成索引文件
 // var funSets = require("./funSets");
 // funSets.getSubDirs('docs', { genReadme: true });
 
 // 网站必要的配置文件
-module.exports = {
+ export default {
     base: "/blog/",
     title: "Daryl's blog",
+    lang: "zh-CN",
     description: '从开源中来，到开源中去!',
     markdown: {
         lineNumbers: true
     },
-    themeConfig: {
+    theme: defaultTheme({
         // 导航栏
         navbar: [
             // { text: '主页', link: '/' },
@@ -37,7 +39,7 @@ module.exports = {
                 { text: 'Docker', link: '/Docker/' },
                 { text: '网络安全', link: '/network-secure/' }
             ]},
-            { text: '关于我', link: 'about-me.md'}
+            { text: '关于我', link: '/about-me.md'}
         ],
         // 侧边栏，需要将路径写到这个列表里
         // 注意： 目录下必须要有README.md， 【可能是因为目录最终显示的文字是来自于README.md的一级标题】
@@ -60,5 +62,5 @@ module.exports = {
         contributors: false,
         lastUpdatedText: "最后更新",
         // displayAllHeaders: true
-    }
+    })
 };

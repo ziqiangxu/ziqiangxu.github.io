@@ -5,6 +5,9 @@ editLink: false
 title: 最新动态
 footer: Powered by VuePress2.x | Copyright © 2018-present Daryl.Xu
 ---
+- 2022-03-16
+  - [给同学们计算绩点-翻车了](./personal-diary/a-mistake-when-computing-gpa.md)
+  - [医疗软件送检的经验](./personal-diary/experience-for-medical-software-testing.md)
 - 2021-11-07
   - [软件发布和维护流程实践](software-engineering/software-release-and-maintain-flow-practice.md)
 - 2021-10-31
