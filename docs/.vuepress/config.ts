@@ -1,13 +1,13 @@
 // "use strict";
 // exports.__esModule = true;
-import { defaultTheme } from 'vuepress'
+import { defaultTheme, defineUserConfig } from 'vuepress'
 
 // 为每个目录生成索引文件
 // var funSets = require("./funSets");
 // funSets.getSubDirs('docs', { genReadme: true });
 
 // 网站必要的配置文件
- export default {
+ export default defineUserConfig({
     base: "/blog/",
     title: "Daryl's blog",
     lang: "zh-CN",
@@ -33,10 +33,8 @@ import { defaultTheme } from 'vuepress'
             { text: '其它', children: [
                 { text: '软件工程', link: '/software-engineering/' },
                 { text: '数据结构', link: '/data-structure/' },
-                { text: '操作系统', link: '/OS/' },
                 { text: 'Git', link: '/Git/' },
                 { text: 'Qt', link: '/Qt/' },
-                { text: 'Docker', link: '/Docker/' },
                 { text: '网络安全', link: '/network-secure/' }
             ]},
             { text: '关于我', link: '/about-me.md'}
@@ -63,4 +61,4 @@ import { defaultTheme } from 'vuepress'
         lastUpdatedText: "最后更新",
         // displayAllHeaders: true
     })
-};
+});

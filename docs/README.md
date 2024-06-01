@@ -5,6 +5,8 @@ editLink: false
 title: 最新动态
 footer: Powered by VuePress2.x | Copyright © 2018-present Daryl.Xu
 ---
+- 2024-05-24
+  - [和《第一行代码》的故事](./personal-diary/story-with-the-first-line-of-code.md)
 - 2022-03-16
   - [给同学们计算绩点-翻车了](./personal-diary/a-mistake-when-computing-gpa.md)
   - [医疗软件送检的经验](./personal-diary/experience-for-medical-software-testing.md)

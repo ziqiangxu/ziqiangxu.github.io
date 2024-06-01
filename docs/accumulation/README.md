@@ -4,7 +4,8 @@ sidebar: false
 ---
 # 积累
 
-- [`Deepin` 如何休眠](Deepin休眠.md)
+- [`Docker` 创建 `MariaDB` 实例](../Docker/Docker创建MariaDB实例.md)
+- [~~`Deepin` 如何休眠~~](Deepin休眠.md)
 - [`Deepin` 搭建 8086 汇编开发环境](Deepin搭建8086汇编开发环境.md)
 - [`Deepin` 搭建深度学习环境（安装显卡驱动、`cuda`、`cuDNN`）](Deepin搭建深度学习环境（安装显卡驱动、cuda、cuDNN）.md)
 - [`Deepin` 文件管理器的文件夹共享](Deepin文件管理器的文件夹共享.md)
